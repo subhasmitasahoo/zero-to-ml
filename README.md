@@ -76,44 +76,10 @@ code .
 
 ## 📝 How to Submit Your Work
 
-### After Completing Each Day:
 
-1. **Save your work** in your student folder:
-```bash
-# Copy completed notebooks
-cp week01-linear-regression/01-python-primer.ipynb students/YOUR-NAME/week01/
-cp week01-linear-regression/02-math-foundations.ipynb students/YOUR-NAME/week01/
+Submission instructions have been consolidated into [SUBMISSION_WORKFLOW.md](./SUBMISSION_WORKFLOW.md). Please follow that document for step-by-step guidance, PR templates, naming conventions, and grading criteria.
 
-# Add any notes or reflections
-echo "# My Week 1 Notes" > students/YOUR-NAME/week01/NOTES.md
-```
-
-2. **Commit your changes:**
-```bash
-git add students/YOUR-NAME/
-git commit -m "Complete Week 1 - Day 1 & 2"
-git push origin main
-```
-
-3. **Submit via Pull Request:**
-   - Go to your fork on GitHub
-   - Click "Pull requests" → "New pull request"
-   - Title: **"Week 1 Solutions - [Your Name]"**
-   - Description: Share what you learned, challenges faced, etc.
-   - Click "Create pull request"
-
-### What to Include:
-
-✅ Completed notebooks with your solutions  
-✅ Any additional exercises you created  
-✅ Notes or reflections (optional but encouraged)  
-✅ Questions or areas where you got stuck
-
-**Benefits of submitting:**
-- Get feedback on your solutions
-- Help future learners by sharing your approach
-- Build your GitHub portfolio
-- Connect with other learners
+Refer to that file before preparing your `students/<your-name>/` folder and opening a Pull Request.
 
 ---
 
@@ -154,32 +120,9 @@ week01-linear-regression/
 
 ### Students: Submit Your Solutions
 
-**This is how you learn!** We encourage everyone to fork, complete, and submit.
+See `SUBMISSION_WORKFLOW.md` for the official submission workflow, examples, and PR templates. That document covers forking, folder structure, committing, and submitting Pull Requests.
 
-**Your workflow:**
-1. Fork & clone the repository
-2. Create your folder: `students/<your-name>/week01/`
-3. Complete the notebooks (solve all exercises!)
-4. Copy your completed work to your folder
-5. Commit and push to your fork
-6. Open a Pull Request
-
-**Example folder structure:**
-```
-students/
-└── john-doe/
-    └── week01/
-        ├── 01-python-primer.ipynb        # Your completed notebook
-        ├── 02-math-foundations.ipynb     # Your completed notebook
-        ├── NOTES.md                       # Your reflections (optional)
-        └── bonus-exercise.ipynb           # Extra work (optional)
-```
-
-**What happens after you submit?**
-- Maintainers review your work
-- You might get feedback or suggestions
-- Your solutions help future learners
-- You build your GitHub portfolio!
+**File:** `SUBMISSION_WORKFLOW.md` — `./SUBMISSION_WORKFLOW.md`
 
 ### Contributors: Improve the Course
 
